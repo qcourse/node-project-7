@@ -1,4 +1,4 @@
-var express = require('express');
+﻿var express = require('express');
 var app = express();
 var server = require('http').createServer(app);
 var methodOverride = require('method-override');
@@ -22,7 +22,7 @@ app.use('/', function(req, res) {
 		return;
 	} 
 	// 设置转发url
-	var targetUrl = 'http://' + proxyConfig[pathArr[1]].host + ':' + proxyConfig[pathArr[1]].port + req.originalUrl;
+	var targetUrl = 'http://' + proxyConfig[pathArr[1]].host + ':' + proxyConfig[pathArr[1]].port + routesConfig[req.path].path;
 	// 重置请求方式
 	req.method = routesConfig[req.path].method;
 	// 不能使用bodyParser，会把req里数据流进行更改，对pipe方法造成影响
