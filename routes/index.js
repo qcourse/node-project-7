@@ -1,4 +1,4 @@
-/**
+﻿/**
  * 路由配置
  * @author     qcloud
  * @date 	   2016.7.9
@@ -7,50 +7,50 @@
 module.exports = {
 	'/part0': {
 		'method': 'get',
-		'path': '/',
+		'path': '/'
 	},
 	'/part1': {
 		'method': 'get',
-		'path': '/',
+		'path': '/'
 	},
 	'/part4/upload': {
 		'method': 'post',
-		'path': '/part4/upload'
+		'path': '/upload'
 	},
 	'/part4/list': {
 		'method': 'get',
-		'path': '/part4/list'
+		'path': '/list'
 	},
 	'/part4/meta': {
 		'method': 'put',
-		'path': '/part4/meta'
+		'path': '/meta'
 	},
 	'/part4/keyword': {
 		'method': 'get',
-		'path': '/part4/keyword'
+		'path': '/keyword'
 	},
 	'/part4/delete': {
 		'method': 'delete',
-		'path': '/part4/delete'
+		'path': '/delete'
 	},
 	'/part5/upload': {
 		'method': 'post',
-		'path': '/part5/upload'
+		'path': '/upload'
 	},
 	'/part5/stat': {
 		'method': 'get',
-		'path': '/part5/stat'
+		'path': '/stat'
 	},
 	'/part5/resize': {
 		'method': 'put',
-		'path': '/part5/resize'
+		'path': '/resize'
 	},
 	'/part5/rotate': {
 		'method': 'get',
-		'path': '/part5/rotate'
+		'path': '/rotate'
 	},
 	'/part5/delete': {
 		'method': 'delete',
-		'path': '/part5/delete'
+		'path': '/delete'
 	},
 }
