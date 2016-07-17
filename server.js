@@ -24,7 +24,7 @@ app.use('/', function(req, res) {
 	var targetUrl = 'http://' + proxyConfig[pathArr[1]].host + ':' + proxyConfig[pathArr[1]].port + req.originalUrl.replace(/\/part\d/, '');
 	// 重置请求方式，配置表里没有的路由，使用初始method
 	if (routesConfig[req.path]) {
-		// 如果路由没有配置method，则使用初始method
+		// 如果路由没有配置method，使用初始method
 		req.method = routesConfig[req.path].method || req.method;
 	}
 	// 不能使用bodyParser，会把req里数据流进行更改，对pipe方法造成影响
