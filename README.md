@@ -6,4 +6,4 @@
 2. 部署API Gateway服务，访问项目1~6所有的API
 3. 增加安全验证机制，通过Basic Authentication才能访问所有的API
 
-更多详细信息请参考：https://github.com/qcourse/node-project-7/wiki。
+更多详细信息请参考：[wiki](https://github.com/qcourse/node-project-7/wiki)
