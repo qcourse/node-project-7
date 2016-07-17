@@ -53,4 +53,8 @@ module.exports = {
 		'method': 'delete',
 		'path': '/delete'
 	},
+	'/part6': {
+		'method': '',
+		'path': '/'
+	},
 }
