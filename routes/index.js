@@ -1,6 +1,6 @@
 ﻿/**
  * 路由配置
- * @author     qcloud
+ * @author      qcloud
  * @date 	   2016.7.9
  */
 
